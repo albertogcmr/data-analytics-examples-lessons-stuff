@@ -1,0 +1,1 @@
+{$and: [{"deadpooled_year":{$gte:3}},{$where: "this.deadpooled_year - this.founded_year > 3"}]}
