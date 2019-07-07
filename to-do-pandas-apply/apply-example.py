@@ -1,1 +1,0 @@
-df['col_3'] = df[['col_1','col_2']].apply(lambda x: f(*x), axis=1)

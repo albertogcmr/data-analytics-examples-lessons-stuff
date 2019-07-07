@@ -1,0 +1,1 @@
+Carpeta de trabajo para almacenar material adicional y suplementario al proporcionado por las learnning de IH data. 
