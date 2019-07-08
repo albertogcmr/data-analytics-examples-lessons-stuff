@@ -1,5 +1,6 @@
 ### Info
 https://pypi.org/project/python-dotenv/
+
 ### Files
 main.py
 ```
@@ -7,6 +8,7 @@ import os
 from dotenv import load_dotenv
 
 if __name__ == '__main__': 
+
     # load_dotenv()
     load_dotenv(dotenv_path='.env')
 
@@ -38,8 +40,8 @@ KEY3=top-secret
 ```
 $ python3 main.py
 
-output >>> 
-clave1
-key2
-top-secret
+[output] >>> 
+    clave1
+    key2
+    top-secret
 ```
