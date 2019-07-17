@@ -22,17 +22,10 @@ exercices  inputs  lorem  lorem-copy  modules  outputs  README.md
 ## Ejercicios
 * Imprime en consola "Hello World".
 
-* Almacena en una variable `name` tu nombre mediante el comando `read`.
-
-* Imprime esa variable.
-
 * Crea un directorio nuevo llamado `new_dir`.
 
 * Elimina ese directorio.
 
-* Crea un directorio nuevo que se llame como el contenido de la variable `name`.
-
-* Elimina ese directorio. 
 
 * Copia el archivo `sed.txt` dentro de la carpeta lorem a la carpeta lorem-copy. 
 
@@ -89,6 +82,14 @@ exercices  inputs  lorem  lorem-copy  modules  outputs  README.md
 ```
 
 ## Bonus
+
+* Almacena en una variable `name` tu nombre mediante el comando `read`.
+
+* Imprime esa variable.
+
+* Crea un directorio nuevo que se llame como el contenido de la variable `name`.
+
+* Elimina ese directorio. 
 
 * Por cada archivo dentro de la carpeta `lorem` imprime el número de carácteres que tienen sus nombres. Intenta primero mostrar los archivos mediante un bucle for. Luego calcula la longitud de cada elemento de la iteración. 
 1. Imprime los ficheros
