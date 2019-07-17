@@ -2,40 +2,26 @@
 
 https://www.tutorialspoint.com/unix/
 
-1. Ubícate en la carpeta en la que ejecutando en el terminal
+## Intro
+
+Vamos a practicar con `bash`, un lenguaje de programación que se ejecuta en la línea de comandos!
+
+## Setup
+1. Ubícate en la carpeta en la que ejecutando en el terminal. Al ejecutar `ls` 
 ```console
 $ ls
 ```
 
-Deberías ver: 
+2. Deberías ver: 
 ```console
-exercices  inputs  modules  outputs  README.md
+exercices  inputs  lorem  lorem-copy  modules  outputs  README.md
 ```
-
-2. Encuentra al usuario activo en el sistema
-
-```console
-
-```
-
-3. Encuentra dónde estás en tu sistema de ficheros
-
-```console
-
-```
-
-4. Lista los ficheros que terminan por txt en la carpeta lorem
-
-```console
-
-```
-
-5. Muestra el contenido de los ficheros `at.txt` y `lorem.txt`
-```console
-cat ad.txt lorem.txt
-```
-
-5. contar el número de **archivos** que empiezan por `lorem` que están en este directorio y en directorios internos
+## Ejercicios
+* Encuentra al usuario activo en el sistema
+* Encuentra dónde estás en tu sistema de ficheros
+* Lista los ficheros que terminan por txt en la carpeta lorem
+* Muestra el contenido de los ficheros `at.txt` y `lorem.txt`
+* contar el número de **archivos** que empiezan por `lorem` que están en este directorio y en directorios internos
 
 ```console
 find . -name 'lorem*' -type f | wc -l
