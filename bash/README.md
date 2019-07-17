@@ -62,6 +62,10 @@ exercices  inputs  lorem  lorem-copy  modules  outputs  README.md
 
 * Cuenta el número de **archivos** que empiezan por `lorem` que están en este directorio y en directorios internos
 
+* Encuentra todas las apariciones de `et` en `at.txt` dentro de la carpeta lorem.
+
+* Cuenta el número de apariciones del string `et` en `at.txt` dentro de la carpeta lorem. Para ello debes obtener sólo los string buscados y contar las lineas. 
+
 
 ## Ficheros bash
 
