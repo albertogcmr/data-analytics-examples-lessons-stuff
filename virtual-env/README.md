@@ -36,7 +36,7 @@ Crea tu proyecto y ve instalando únicamente las librerías que necesitas. Así 
 Para ver las librerías instaladas en el entorno actual: 
 
 ```
-(env) $ pip3 freeze
+(env) $ pip freeze
 ```
 
 Now you see nothing but:  
@@ -49,7 +49,7 @@ pkg-resources==0.0.0
 Instalamos numpy para nuestro `main.py`
 
 ```
-(env) $ pip3 install numpy
+(env) $ pip install numpy
 ```
 
 Now you see numpy installed:  
@@ -63,7 +63,7 @@ pkg-resources==0.0.0
 Vamos a crear un archivo `requirements.txt` que contiene todas las dependencias que necesita nuestro programa con la versión adecuada, así en un futuro podremos saber qué versión de cada librería se usaba. Puede que versiones futuras de numpy funcionen de otra forma a la deseada en nuestro programa actual. 
 
 ```
-(env) $ pip3 freeze > requirements.txt
+(env) $ pip freeze > requirements.txt
 ```
 
 Esto crea el archivo `requirements.txt` con el contenido del output del comando `pip3 freeze`. 
