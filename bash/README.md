@@ -44,7 +44,7 @@ exercices  inputs  lorem  lorem-copy  modules  outputs  README.md
 
 * Visualiza las últimas 3 linas del archivo `sed.txt` dentro de la carpeta lorem-copy. Deberías ver ahora `Homo homini lupus.`. 
 
-* Sustituye todas las apariciones de `et` por `ET` del archivo `at.txt` dentro de la carpeta lorem a la carpeta lorem-copy. Deberás usar `sed`. 
+* Sustituye todas las apariciones de `et` por `ET` del archivo `at.txt` dentro de la carpeta lorem-copy. Deberás usar `sed`. 
 
 * Encuentra al usuario activo en el sistema.
 
