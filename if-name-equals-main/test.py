@@ -2,7 +2,6 @@
 import test2 
 
 
-
 def imprime(x): 
     print(x)
 
