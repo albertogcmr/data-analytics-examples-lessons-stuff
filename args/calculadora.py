@@ -34,7 +34,8 @@ def main():
 
 	args=parse()
 	
-    # opciones
+	# opciones
+	print(args)
 	if args.sum:
 		print ('El resultado de sumar {} con {} es {}'.format(args.n1, args.n2, (suma(args.n1, args.n2))))
 
