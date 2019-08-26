@@ -1,6 +1,32 @@
-import random
-
 # Soldier
+class Soldier:
+    def __init__(self, health, strength):
+        # add code here
+        pass
+
+
+
+
+
+
+
+
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class Soldier:
@@ -92,3 +118,5 @@ class War:
 
 
 # todo listo
+
+"""

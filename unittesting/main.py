@@ -1,4 +1,6 @@
 import unittest
+from functions import suma
+from random import randint
 
 class TestStringMethods(unittest.TestCase):
 
@@ -16,19 +18,28 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
 
-# importada desde fuera por ejemplo
-def suma(a, b): 
-    return a + b
 
-class TestViking(unittest.TestCase): 
+class TestSuma(unittest.TestCase): 
 
     def _suma_test(self, a, b): 
         return a + b
 
-    def test_viking(self): 
+    def test_suma(self): 
         a = 10
         b = 12
         self.assertEqual(suma(a, b), self._suma_test(a, b))
+
+
+class TestSuma2(unittest.TestCase): 
+
+    def _suma_test(self, a, b): 
+        return a + b
+
+    def test_multiple_suma(self): 
+        for _ in range(100): 
+            a = randint(-100, 100)
+            b = randint(-100, 100)
+            self.assertEqual(suma(a, b), self._suma_test(a, b))
 
 if __name__ == '__main__':
     unittest.main()
