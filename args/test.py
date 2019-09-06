@@ -18,7 +18,10 @@ argumentos = sys.argv
 
 # test.py 2 + 3
 
+print(argumentos)
+
 a, b = int(argumentos[1]), int(argumentos[3])
 
 if argumentos[2] == '+': 
     print(a + b)
+
